@@ -5,7 +5,8 @@
 	"technologies_used": [
 		"jQuery",
     "html5",
-		"css3"
+		"css3",
+		"es5"
 	],
 	"credits": [{
 		"name": "Bulma",
