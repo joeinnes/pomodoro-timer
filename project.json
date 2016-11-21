@@ -1,0 +1,20 @@
+{
+	"title": "Pomodoro Timer",
+	"image": "pomodoro_timer_ss.jpg",
+	"summary": "Allows user to start, pause, and restart pomodoros, as well as playing an audible alert when the pomodoro is completed. The user can also customise the length of the pomodoro",
+	"technologies_used": [
+		"jQuery",
+    "html5",
+		"css3"
+	],
+	"credits": [{
+		"name": "Bulma",
+		"link": "https://bulma.io"
+	}, {
+		"name": "Mike Koenig",
+		"link": "http://soundbible.com/1261-Cuckoo-Clock.html"
+	}, {
+    "name": "Cirillo Company",
+    "link": "http://cirillocompany.de/pages/pomodoro-technique/"
+  }]
+}
