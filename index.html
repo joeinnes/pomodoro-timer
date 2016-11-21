@@ -88,8 +88,9 @@ $(document).ready(function() {
   $('#set-new-length').click(function() {
     var newLen = $('#new-length').val();
     if (!isNaN(newLen) && isFinite(newLen)) {
-      pomoLength = newLen * 60 * 1000;
+      timerRunning = false;
       clearInterval(tick);
+      pomoLength = newLen * 60 * 1000;
       timeRemaining = pomoLength;
       secsRemaining = pad((timeRemaining / 1000) % 60, 2);
       minsRemaining = pad(Math.floor(timeRemaining / (1000 * 60)), 2);
