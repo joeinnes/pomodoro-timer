@@ -1,4 +1,4 @@
-$ = require('jquery')
+var $ = require('jquery')
 var pomoLength = 25 * 60 * 1000
 var resumeFrom = 0
 var timeRemaining = pomoLength
