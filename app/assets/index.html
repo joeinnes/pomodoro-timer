@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Pomodoro Timer</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/vendor.css">
+<link rel="stylesheet" href="css/app.css">
+
+<body>
+  <section class="hero is-danger is-fullheight">
+    <div class="hero-content">
+      <div class="container">
+        <h1 class="title">
+          Start your Pomodoro!
+        </h1>
+        <h2 class="subtitle" id="time-remaining">
+          25:00
+        </h2>
+        <p>
+          <a class="button is-large is-white" id="start">Start</a>
+          <br />
+          <br />
+          <a class="button is-white" id="pause">Pause</a>
+          <a class="button is-white" id="reset">Reset</a>
+        </p>
+        <br />
+        <section>
+          <p>
+            <a class="button is-white" id="change-length">Change length</a>
+          </p>
+          <div id="set-length">
+            <p>Set pomodoro length (mins)</p>
+            <p class="control">
+              <input class="input" type="text" placeholder="25" id="new-length">
+            </p>
+            <a class="button is-warning" id="cancel-change-length">Cancel</a>
+            <a class="button is-primary" id="set-new-length">Set</a>
+          </div>
+        </section>
+      </div>
+    </div>
+  </section>
+  <script src="js/vendor.js"></script>
+  <script src="js/app.js"></script>
+  <script>
+      require('initialize')
+    </script>
+</body>
+
+</html>
