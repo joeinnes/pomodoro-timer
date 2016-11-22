@@ -1,0 +1,15 @@
+#set-length {
+  display: none;
+}
+
+.is-white {
+  border-color: #fff;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.is-white:hover {
+  border-color: #fff;
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.2);
+}

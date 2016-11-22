@@ -1,0 +1,28 @@
+{
+  "name": "pomodoro-timer",
+  "description": "Allows user to start, pause, and restart pomodoros, as well as playing an audible alert when the pomodoro is completed. The user can also customise the length of the pomodoro.",
+  "author": "Joe Innes",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joeinnes/pomodoro-timer.git"
+  },
+  "scripts": {
+    "start": "brunch watch --server",
+    "prod": "brunch build --production && git add . && git commit -m \"Updated app\" && git subtree push --prefix public origin gh-pages"
+  },
+  "dependencies": {
+    "bulma": "^0.2.3",
+    "jquery": "^3.1.1"
+  },
+  "devDependencies": {
+    "auto-reload-brunch": "^2.0.0",
+    "babel-brunch": "~6.0.0",
+    "babel-preset-es2015": "~6.3.13",
+    "brunch": "^2.4.0",
+    "clean-css-brunch": "^2.0.0",
+    "css-brunch": "^2.0.0",
+    "javascript-brunch": "^2.0.0",
+    "uglify-js-brunch": "^2.0.0"
+  }
+}
